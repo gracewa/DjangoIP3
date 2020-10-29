@@ -1,5 +1,8 @@
 # DjangoIP3
 
+![Screenshot](https://ibb.co/C9RWynC)
+
+
 ## Author  
   
 [Grace Wanene](https://github.com/gracewa)  
@@ -24,11 +27,18 @@ git clone https://github.com/gracewa/DjangoIP3.git
 ```bash
 source virtual/bin/activate 
 ```
-4. Install requirements 
+5. Install requirements 
 ```bash 
  pip install -r requirements.txt 
 ```
-5. python manage.py createsuperuser 
-6. python manage.py makemigrations postings
-7. python manage.py migrate postings
-8. python manage.py run server and then go to http://localhost:8000/
+6. python manage.py createsuperuser 
+7. python manage.py makemigrations postings
+8. python manage.py migrate postings
+9. python manage.py run server and then go to http://localhost:8000/
+
+## Technologies used 
+    
+* [Python3.8.5](https://www.python.org/)  
+* [Django 2.2](https://www.djangoproject.com/download/)  
+* HTML
+* CSS
