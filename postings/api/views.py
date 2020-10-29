@@ -11,7 +11,6 @@ from .serializers import ProjectPostSerializer
 class ProjectPostAPIView(mixins.CreateModelMixin, generics.ListAPIView):
     lookup_field            = 'pk'
     serializer_class        = ProjectPostSerializer
-    #queryset                = ProjectPost.objects.all()
 
     def get_queryset(self):
         qs = ProjectPost.objects.all()
