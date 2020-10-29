@@ -42,3 +42,9 @@ source virtual/bin/activate
 * [Django 2.2](https://www.djangoproject.com/download/)  
 * HTML
 * CSS
+
+## License 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+ Copyright (c) 2020 **Grace**
