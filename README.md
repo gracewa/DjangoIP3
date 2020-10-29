@@ -1,6 +1,6 @@
 # DjangoIP3
 
-![Screenshot](https://ibb.co/C9RWynC)
+![Screenshot](https://i.ibb.co/YdHbStn/apiproject.png)
 
 
 ## Author  
