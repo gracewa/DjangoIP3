@@ -22,6 +22,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'api/postings/', include(('postings.api.urls','postings'), namespace='api-postings')),
+    path('', include('postings.urls', namespace='core')),
+
 ]
 
 if settings.DEBUG:
