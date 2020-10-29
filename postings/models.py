@@ -13,7 +13,6 @@ class ProjectPost(models.Model):
     title = models.CharField(max_length=120, null=True, blank=True)
     image = models.ImageField(upload_to ='images/')
     description = models.TextField(max_length=120, null=True, blank=True)
-    link = models.CharField(max_length=120, null=True, blank=True)
     timestamp = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
